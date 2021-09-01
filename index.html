@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login in</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<section class="auth">
+		<div class="auth__content container">
+			<h1 class="auth__title">Добрый вечер, аноним</h1>
+			<div class="auth__buttons">
+				<a href="" class="auth__btn">Войти</a>
+				<a href="" class="auth__btn">Зарегистрироваться</a>
+			</div>
+			<form action="" class="auth__form">
+				<div class="form-inputs-block" style="display: none;">
+					<label for="1">Ваше имя и фамилия</label>
+					<input type="text" name="firstName" id="1" autocomplete="none">
+				</div>
+				<div class="form-inputs-block">
+					<label for="2">Логин</label>
+					<input type="text" name="lastName" id="2" autocomplete="none">
+				</div>
+				<div class="form-inputs-block">
+					<label for="3">Пароль</label>
+					<input type="text" name="password" id="3" autocomplete="none">
+				</div>
+				<button type="submit" class="form-submit">Отправить</button>
+			</form>
+			<ul class="auth__list"></ul>
+		</div>
+	</section>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
